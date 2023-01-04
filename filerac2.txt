@@ -1,0 +1,100 @@
+Câu 1:
+a) Cho biết ý nghĩa của các câu lệnh sau:
+- ls –alt	liet ke cac thu muc, thuoc tinh, sap xep theo thoi gian
+- ls *.doc	
+- ls –d .*	liet ke tat ca cac thu muc co trong thu muc me cua thu muc current
+
+b) Cho biết các thư mục sau gồm những file gì: /bin/ ; /dev/ ; /home/
+/bin	chua tat ca cac file thuc thi duoi dang nhi phan cua he thong
+/dev	chua cac file thiet bi
+/home	Thư mục này chứa các thư mục con đại diện cho mỗi user khi đăng nhập
+
+Câu 2:
+a) Cho biết ý nghĩa của các thư mục sau:
+- ./
+- ../
+- ~/
+- Biết tên user hiện tại là httt, Hãy cho biết đường dẫn tuyệt đối của từng
+thư mục trên
+b) Cho biết các thư mục sau gồm những file gì: /lost+found/ ; /mnt/ ; /proc/
+/lost+found: Khi hệ hệ thống khởi động hoặc khi bạn chạy trình fsck, nếu tìm thấy một chuỗi dữ liệu nào thất lạc trên đĩa cứng và không liên quan đến đến các tập tin, Linux sẽ gộp chúng lại và đặt trong thư mục này để nếu cần bạn có thể đọc và giữ lại dữ liệu bị mất.
+/mnt: Thư mục này chứa các kết gán (mount) tạm thời đến các ổ đĩa hoặc thiết bị khác. Bạn có thể tìm thấy trong /mnt các thư mục con như cdrom hoặc floppy.
+/proc: Proc là hệ thống file ảo (pseudo file system), một hệ thống file thời gian thực (real time) và thường trú trong bộ nhớ (memory resident) để theo dõi các process đang chạy cùng với trạng thái của hệ thống.
+
+Câu 3:
+a) Cho biết ý nghĩa và sự khác nhau giữa các lệnh sau: cat, more, less
+more: Lệnh more dùng mở một tệp để đọc tương tác, cho phép di chuyển lên xuống và tìm kiếm. 
+less: Lệnh less dùng mở một tệp để đọc tương tác, cho phép di chuyển lên xuống và tìm kiếm.
+Điểm khác biệt giữa less và more là less cho phép cuộn ngược lên các trang dữ liệu đã đọc, còn more thì chỉ có thể đọc từ đầu tới cuối. Lệnh less có thể dùng phím mũi tên trên bàn phím để scroll lên xuống, lệnh more không có chức năng này.
+cat: dung de hien thi noi dung cua file/tap tin ra man hinh
+
+b) Cho biết các thư mục sau gồm những file gì: /sbin/ ; /tmp/ ; /var/
+/sbin: Thư mục này chứa các file thực thi của hệ thống dành cho người quản trị (root).
+/tmp: Thư mục tạm dùng để chứa các file tạm mà chương trình tạo ra trong lúc chạy. Các file này sẽ được hệ thống dọn dẹp khi khi các chương trình kết thúc.
+/var: Thư mục này chứa các file biến thiên bất thường như các file dữ liệu đột nhiên tăng kích thước trong một thời gian ngắn sau đó lại giảm kích thước xuống còn rất nhỏ. Điển hình là các file dùng làm hàng đợi chứa dữ liệu cần đưa ra máy in hoặc các hàng đợi chứa mail.
+
+
+Câu 4:
+a) Cho biết ý nghĩa của câu lệnh sau:
+- head -10 oss1.txt	xem 10 dong dau cua file
+- tail -20 oss2.txt	xem 20 dong cuoi cua file
+- tail –f oss3.txt	doc 10 dong du lieu cuoi va du lieu dc them vao khi file dc update cho den khi ctrl C
+b) Cho biết các thư mục sau gồm những file gì: /boot/ ; /etc/ ; /lib/
+/boot: Các file ảnh (image file) của kernel dùng cho quá trình khởi động thường đặt trong thư mục này.
+/etc: Thư mục này chứa các file cấu hình toàn cục của hệ thống. Có thể có nhiều thư mục con trong thư mục này nhưng nhìn chung chúng chứa các file script để khởi động hay phục vụ cho mục đích cấu hình chương trình trước khi chạy.
+/lib: Thư mục này chứa các file thư viện .so (shared object) hoặc .a. Các thư viện C và liên kết động cần cho chương trình chạy và cho toàn hệ thống. Thư mục này tương tự như thư mục SYSTEM32 của Windows.
+
+
+Câu 5:
+a) Cho biết ý nghĩa của câu lệnh sau:
+- grep -v httt *.txt	chọn các dòng không khớp
+- grep –ri cntt .	tim kiem de quy khong phan biet chu hoa thuong
+- grep –i pmmnm *.log	tim kiem khong phan biet chu hoa thuong trong tat ca cac file .log voi pattern = pmmmm
+b) Cho biết các thư mục sau gồm những file gì: /media/ ; /opt/ ; /root/
+/media = mount (linux moi)
+/opt = Các ứng dụng tùy chọn hay thêm
+/root Thư mục gốc
+
+
+Câu 6:
+a) Cho các câu lệnh sau:
+- chmod go+r oss1.txt	gan quyen cho group va other quyen dc read file txt
+- chmod u-w oss2.txt	gan quyen cho user quyen write
+- chmod a-x oss3.txt	gan cho all quyen thuc thi
+Cho biết sự thay đổi về quyền truy cập trên các tập tin oss1(read only), oss2(write only), oss3(execute)
+b) Cho biết các thư mục sau gồm những file gì: /sys/ ; /usr/ ; /boot/
+/sys	no da cu, giong /proc
+/usr	Các chương trình của người dùng
+/boot	Các tập tin của chương trình khởi động máy
+
+
+Câu 7:
+a) Cho biết ý nghĩa và sự khác nhau của các câu lệnh sau: ps, top, htop
+ps:	Câu lệnh ps liệt kê danh sách các tiến trình đang chạy
+top:	Câu lệnh top là một phương thức cổ điển nhất để bạn xem việc chiếm dụng tài nguyên hệ thống, và xem những tiến trình nào chiếm dụng tài nguyên nhiều nhất. Những tiến trình chiếm dụng CPU nhiều nhất sẽ được liệt kê đầu tiên.
+htop: cai tien cua top them 1 so phim chuc nang tu F1->F9
+b) Cho biết các thư mục sau gồm những file gì: /bin/ ; /home/ ; /mnt/
+
+Câu 8:
+a) Cho biết ý nghĩa của các lệnh sau: history ; !! ; !1005
+history: lich su cac lenh da dung
+!!: lenh phe vat
+!1005: lenh phe vat
+b) Cho biết các thư mục sau gồm những file gì: /sbin/ ; /var/ ; /opt/
+
+
+a) Cho biết ý nghĩa của câu lệnh sau:
+- df –h		Hien thi thong tin cua o dia, quy doi dung luong theo luy thua cua 1024(KB,MB,GB)
+- du –h		Tóm tắt việc sử dụng đĩa của tập hợp các TẬP TIN, theo cách đệ quy cho các thư mục.
+- du -sh	Hien thi disk usage quy doi dung luong theo luy thua cua 1024(KB,MB,GB)
+b) Cho biết các thư mục sau gồm những file gì: /proc/ ; / dev/ ; /lost+found/
+
+
+Câu 10:
+a) Cho biết ý nghĩa của câu lệnh sau:
+- locate “*.xls”	Lệnh locate trong Linux để tìm kiếm các file và thư mục theo tên 
+- locate “/usr/oss/*linux*”	Lệnh locate trong Linux để tìm kiếm các file và thư mục theo tên
+- find . –name “*.pdf”		Lệnh locate trong Linux để tìm kiếm các file và thư mục theo tên
+b) Cho biết các thư mục sau gồm những file gì: /media/ ; /sys/ ; /etc/
+
+

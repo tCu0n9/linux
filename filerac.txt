@@ -1,0 +1,46 @@
+Cau 1 Trình bày định nghĩa cho những nội dung sau: Phần mềm mã nguồn mở
+(OSS); Freeware; shareware; Charityware (careware)
+
+Phần mềm nguồn mở là phần mềm với mã nguồn được công bố và sử dụng một giấy phép nguồn mở. Giấy phép này cho phép bất cứ ai cũng có thể nghiên cứu, thay đổi và cải tiến phần mềm, và phân phối phần mềm ở dạng chưa thay đổi hoặc đã thay đổi.
+
+Phần mềm miễn phí (tiếng Anh: freeware) là phần mềm mà người sử dụng không phải trả bất kỳ chi phí nào, không hạn chế thời gian sử dụng, có thể tải tự do về dùng từ Internet, có thể sao chép và sử dụng phần mềm đó. Ngoài trừ việc chấp nhận cung cấp một số thông tin như địa chỉ thư điện tử (email) và một số thông tin cá nhân khác nếu có. Người sử dụng phải chịu hoàn toàn trách nhiệm với những thỏa thuận bản quyền cam kết giữa hai bên.
+
+Shareware loại phần mềm độc quyền ban đầu được chia sẻ bởi chủ sở hữu để dùng thử trong một thời gian (free trial) với ít hoặc không có chi phí với chức năng thường hạn chế hoặc tài liệu không đầy đủ nhưng có thể được nâng cấp khi thanh toán. Shareware thường được cung cấp dưới dạng tải xuống từ một website hoặc trên đĩa CD. Khi hết thời gian dùng thử mà muốn dùng tiếp thì phải trả tiền để mua bản quyền. Đây là một mô hình kinh doanh trong phân phối phần mềm. 
+
+Careware là một ứng dụng phần mềm được phân phối trong một nỗ lực để giúp một tổ chức từ thiện, nguyên nhân từ thiện hoặc hành động từ thiện khác. Careware tạo quỹ cho một tổ chức từ thiện bằng một doanh nghiệp phần mềm hay mô hình cung cấp.
+
+
+
+
+Câu 2. Trình bày nội dung chính của các nhóm giấy phép bản quyền tự do sau và cho biết sự khác nhau giữa các loại giấy phép: GPL ; BSD
+	GPL
+		
+    Bất cứ ai cũng có thể tải về và vận hành phần mềm
+    Bất cứ ai cũng có thể sửa đổi nó
+    Bất cứ ai cũng có thể phân phối các bản sao miễn phí của phần mềm
+    Bất cứ ai cũng có thể phân phát các phiên bản sửa đổi của phần mềm .
+
+	BSD
+Tái phân phối và sử dụng ở dạng mã nguồn và nhị phân, có hoặc không có sửa đổi mã nguồn, đều được cho phép miễn là các điều khoản sau được đáp ứng:
+– Việc phân phối lại mã nguồn phải giữ lại thông báo bản quyền, danh sách các điều kiện và tuyên bố từ chối trách nhiệm.
+– Việc phân phối lại dưới dạng nhị phân phải sao chép thông báo bản quyền, danh sách các điều kiện và tuyên bố từ chối trách nhiệm trong tài liệu và/hoặc các tài liệu khác được cung cấp bởi bản phân phối.
+– Tên của người giữ bản quyền cũng như tên của những người đóng góp của nó có thể được sử dụng để xác nhận hoặc quảng cáo các sản phẩm có nguồn gốc từ phần mềm này mà không có sự cho phép trước bằng văn bản cụ thể.
+
+
+Câu 3.So sánh phần mềm mã nguồn mở và phần mềm nguồn đóng (Ưu, nhược điểm của phần mềm mã nguồn mở)
+Mã nguồn mở (Open Source): là các phần mềm miễn phí và được công khai mã nguồn. Ai cũng có thể download mã nguồn để điều chỉnh lại cho phù hợp với nhu cầu sử dụng.
+Mã nguồn đóng (mã nguồn riêng hay mã nguồn thương mại): thực chất là một phần mềm sở hữu mã nguồn độc quyền, được trang bị hệ thống bảo mật chặt chẽ và không được chia sẽ rộng rãi trong cộng đồng. Khi muốn sử dụng mã nguồn đóng bạn cần trả một mức chi phí nhất định cho các đơn vị cung cấp.
+
+Ưu điểm của mã nguồn mở
+
+    Khả năng quản trị và điều khiển cao: giúp các nhà quản lý kiểm soát nhiều hơn. Họ có thể cho phép phần nào hoạt động, phần nào không.
+    Tăng khả năng sáng tạo: Vì được thiết kế mở, nhiều người có thể nghiên cứu, tạo ra các phần mềm tốt hơn. Dễ dàng tùy chỉnh Website của mình để tạo nên giao diện và tính năng mới mẻ.
+    Ổn định: Nhiều người đánh giá cao mã nguồn mở vì cho rằng nó có thể hỗ trợ cho nhiều công ty, doanh nghiệp trong các dự án quan trọng, có tính chất dài hạn.
+    Cài đặt đơn giản: Chỉ với vài thao tác đơn giản, bạn có thể đưa Website thương mại điện tử của mình vào hoạt động. Ngoài ra, mỗi khi Website của bạn mắc lỗi, sẽ luôn có hàng triệu người sẵn sàng trao đổi và giúp đỡ bạn.
+
+Nhược điểm của mã nguồn mở
+
+    Cập nhật phiên bản: để bắt kịp với tốc độ phát triển của thị trường. Bắt buộc Website của bạn cần có những thay đổi và đặc biệt là vá các lỗ hổng bảo mật. Và nếu bạn không tìm hiểu rõ về các tính năng mới và những thay đổi trong mã nguồn thì việc nâng cấp có thể mất rất nhiều thời gian và công sức.
+    Tùy biến: thiết kế Website mã nguồn mở được tạo ra nhằm mục đích phục vụ nhu cầu chung cho cả cộng đồng. Chính vì thế, việc tùy biến hay chỉnh sửa theo hướng cá nhân hóa thường gặp phải nhiều khó khăn. Đó là lý do bạn phải lựa chọn mã nguồn phù hợp với mục đích thiết kế web của bạn.
+
+
