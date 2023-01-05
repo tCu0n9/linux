@@ -1,0 +1,46 @@
+useradd -m -d <ten duong dan mac dinh(/home/tenuser)> <tenuser>
+echo"tenuser:pass"|chpasswd - dat mk cho user
+cat /etc/passwd - xem thong tin uid ,gid
+id <tenuser> - xem thon tin uid ,gid
+cat /etc/group - xem thong tin group 
+id -g <tengroup> - xem gid cua group
+usermod -d <duong dan moi> <tenuser> : thay doi duong dan mac dinh cua user
+groupadd <tengroup> - tao group moi
+adduser <tenuser> <tengroup> :add user vao group
+useradd -g <tengroup> <tenuser> - add user vao group
+usermod -l <tenmoi> <tencu> - doi ten user
+mkdir <ten thu muc | duong dan(/home/user/...)> - tao thu muc
+rm -r <ten file folder| duong dan(/home/user/..) > -xoa file ,folder
+chmod <u=r+w+x;g=r+w+x;o=r+w+x;777;755;766;...> <duong dan den file(nho /home/...)> - phan quyen 
+chown <tenuser> <file user lam chu>:doi quyen so huu cua 1 file/folder
+chown <:group> <ten file group lam chu > : doi quyen so huu cua file
+mv <file can chuyen> <duong dan chuyen den> -di chuyen
+cp -r <file can chuyen> <duong dan chuyen den> - copy
+echo "noi dung can ghi" >> (duong dan den file) - ghi noi dung vao file
+ifconfig - kiem tra ip 
+ifconfig <tenIp> <newipv4> netmask <subnetnew> - doi ip va subnetmask 
+ifconfig <tenip> mtu <mtu_size new> up - doi mtu_size cua ip
+systemctl restart NetworkManager - reset mang
+wget <link> - download 1 file tu internet 
+ls -l : check thuoc tinh cua folder , file
+lsblk : check o dia
+gzip <tenfile> : nen file
+gunzip <tenfile> : giai nen
+tar -cvf <tenfile.gz,tar> <filenen> : nen file or nhieu file cach nhau space
+tar -xvf <tenfile> : giai nen
+pwd : kiemtra duong dan hientai
+su <username> -c "command" : doi tai khoan de chay lenh 
+mount <duong dan  o can anh xa> <duong dan folder anh xa vao o>: mount o dia
+umount <duong dan folder can unmount> : unmount thu muc
+mkfs -t <loai can dinh dang (ext2,3,4)> <duong dan o dia can dinh dang> : dinh dang o dia
+kill -9 <processid> : dung tien trinh
+top,ps -a : check tien trinh
+cat /etc/shadow: luu pass duoi dang ma hoa
+//tao primary o dia de mount 
+lsblk ( check dinh dang sda hay sdb)
+parted /dev/sda
+print
+mkpart primary
+start 0 end 1024
+print
+quit
