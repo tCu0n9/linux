@@ -43,4 +43,31 @@ Nhược điểm của mã nguồn mở
     Cập nhật phiên bản: để bắt kịp với tốc độ phát triển của thị trường. Bắt buộc Website của bạn cần có những thay đổi và đặc biệt là vá các lỗ hổng bảo mật. Và nếu bạn không tìm hiểu rõ về các tính năng mới và những thay đổi trong mã nguồn thì việc nâng cấp có thể mất rất nhiều thời gian và công sức.
     Tùy biến: thiết kế Website mã nguồn mở được tạo ra nhằm mục đích phục vụ nhu cầu chung cho cả cộng đồng. Chính vì thế, việc tùy biến hay chỉnh sửa theo hướng cá nhân hóa thường gặp phải nhiều khó khăn. Đó là lý do bạn phải lựa chọn mã nguồn phù hợp với mục đích thiết kế web của bạn.
 
+Câu 4. Trình bày định nghĩa cho những nội dung sau: Phần mềm mã nguồn mở (OSS); Freeware; Public Domain; Proprietary (locked-in, non-free)
 
+
+Câu 5. Trình bày nội dung chính của các nhóm giấy phép bản quyền tự do sau và cho biết sự khác nhau giữa các loại giấy phép: GPL ; Apache
+dài vl
+
+	Apache: Đây là một giấy phép phần mềm tự do, không có copyleft, bắt buộc trong việc thông báo bản quyển và lời phủ nhận.
+
+	GPL giấy phép mã nguồn mở có copyleft được sử dụng rộng rãi, đảm bảo cho người dùng khả năng chạy, nghiên cứu, tùy biển về phần mềm
+
+Câu 6. Tại sao lại có phần mềm thương mại độc quyền và phần mềm nguồn mở?
+không có
+
+Câu 7. Ubuntu nghĩa là gì? Trình bày phương thức đánh số phiên bản Ubuntu? Sự khác biệt của Ubuntu với các hệ điều hành khác?
+
+	Ubuntu là một hệ điều hành mã nguồn mở, được phát triển bởi cộng đồng chung trên nền tảng Debian GNU/Linux. 
+	
+	Tên mã của các phiên bản Ubuntu được tạo thành từ 2 từ, từ đầu tiên là tính từ và từ thứ hai là sẽ là danh từ, mà cụ thể ở đây là một loài động vật nào đó đang 
+	có nguy cơ tuyệt chủng, hoặc cũng có khi là các sinh vật thần thoại
+
+Câu 8. Trình bày nội dung chính của các nhóm giấy phép bản quyền tự do sau và cho biết sự khác nhau giữa các loại giấy phép: GPL ; MIT/X11
+
+ 	MIT: giấy phép cấp phép, không có copyleft và c rất ít hạn chế trong việc sử dụng, trở thành một trong 
+	những giấy phép lý tưởng trong việc phát triển phần mềm.
+dài vl
+
+Câu 9. So sánh Linux với các hệ điều hành BSD (như FreeBSD, NetBSD, ...)
+dài vl
